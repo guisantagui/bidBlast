@@ -1,0 +1,98 @@
+doBiBlast.py:250: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:252: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:250: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:252: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+45.72user 0.65system 0:51.93elapsed 89%CPU (0avgtext+0avgdata 90048maxresident)k
+23864inputs+1368outputs (92major+121089minor)pagefaults 0swaps
+doBiBlast.py:250: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:252: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:250: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:252: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+407.87user 1.41system 6:50.31elapsed 99%CPU (0avgtext+0avgdata 171064maxresident)k
+0inputs+29336outputs (19major+428936minor)pagefaults 0swaps
+doBiBlast.py:250: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:252: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:250: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:252: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+413.89user 1.31system 6:55.54elapsed 99%CPU (0avgtext+0avgdata 171856maxresident)k
+0inputs+29776outputs (0major+438678minor)pagefaults 0swaps
+36.11user 0.31system 0:36.39elapsed 100%CPU (0avgtext+0avgdata 94120maxresident)k
+0inputs+3552outputs (0major+79497minor)pagefaults 0swaps
