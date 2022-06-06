@@ -23,6 +23,7 @@ refGbk="/storage/PGO/results/mtb/pacbioFISABIO/anotacion_flye/PROKKA_CCS-D0108/P
 targetGbk1="/storage/PGO/results/mtb/pacbioFISABIO/anotacion_flye/PROKKA_CCS-D0107/PROKKA_04212022.gbk" # --># Path to target .GBK file
 targetGbk2="/storage/PGO/results/mtb/pacbioFISABIO/anotacion_flye/PROKKA_CCS-D0109/PROKKA_04212022.gbk" # --># Path to target .GBK file
 targetGbk3="/storage/PGO/results/mtb/pacbioFISABIO/anotacion_flye/PROKKA_CCS-D0110/PROKKA_04212022.gbk" # --># Path to target .GBK file
+targetGbk3="/storage/PGO/data/mtb/wrk_dataset/h37Rv_gbk/AL123456.3.gbk"# -----------------------------------># Path to target .GBK file
 
 targetArray=($targetGbk1 $targetGbk2 $targetGbk3)
 

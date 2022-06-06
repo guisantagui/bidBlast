@@ -1,4 +1,4 @@
-doBiBlast.py:250: SettingWithCopyWarning: 
+doBiBlast.py:260: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -8,12 +8,12 @@ A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   iloc._setitem_with_indexer(indexer, value, self.name)
-doBiBlast.py:252: SettingWithCopyWarning: 
+doBiBlast.py:262: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   best_hit['BBH'] = '->'
-doBiBlast.py:250: SettingWithCopyWarning: 
+doBiBlast.py:260: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -23,14 +23,14 @@ A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   iloc._setitem_with_indexer(indexer, value, self.name)
-doBiBlast.py:252: SettingWithCopyWarning: 
+doBiBlast.py:262: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   best_hit['BBH'] = '->'
-45.72user 0.65system 0:51.93elapsed 89%CPU (0avgtext+0avgdata 90048maxresident)k
-23864inputs+1368outputs (92major+121089minor)pagefaults 0swaps
-doBiBlast.py:250: SettingWithCopyWarning: 
+40.26user 0.81system 0:50.09elapsed 81%CPU (0avgtext+0avgdata 89376maxresident)k
+25384inputs+1368outputs (94major+117879minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -40,12 +40,12 @@ A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   iloc._setitem_with_indexer(indexer, value, self.name)
-doBiBlast.py:252: SettingWithCopyWarning: 
+doBiBlast.py:262: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   best_hit['BBH'] = '->'
-doBiBlast.py:250: SettingWithCopyWarning: 
+doBiBlast.py:260: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -55,14 +55,14 @@ A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   iloc._setitem_with_indexer(indexer, value, self.name)
-doBiBlast.py:252: SettingWithCopyWarning: 
+doBiBlast.py:262: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   best_hit['BBH'] = '->'
-407.87user 1.41system 6:50.31elapsed 99%CPU (0avgtext+0avgdata 171064maxresident)k
-0inputs+29336outputs (19major+428936minor)pagefaults 0swaps
-doBiBlast.py:250: SettingWithCopyWarning: 
+39.30user 0.49system 0:40.05elapsed 99%CPU (0avgtext+0avgdata 89324maxresident)k
+0inputs+1376outputs (0major+110891minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -72,12 +72,12 @@ A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   iloc._setitem_with_indexer(indexer, value, self.name)
-doBiBlast.py:252: SettingWithCopyWarning: 
+doBiBlast.py:262: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   best_hit['BBH'] = '->'
-doBiBlast.py:250: SettingWithCopyWarning: 
+doBiBlast.py:260: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
@@ -87,12 +87,564 @@ A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   iloc._setitem_with_indexer(indexer, value, self.name)
-doBiBlast.py:252: SettingWithCopyWarning: 
+doBiBlast.py:262: SettingWithCopyWarning: 
 A value is trying to be set on a copy of a slice from a DataFrame
 
 See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
   best_hit['BBH'] = '->'
-413.89user 1.31system 6:55.54elapsed 99%CPU (0avgtext+0avgdata 171856maxresident)k
-0inputs+29776outputs (0major+438678minor)pagefaults 0swaps
-36.11user 0.31system 0:36.39elapsed 100%CPU (0avgtext+0avgdata 94120maxresident)k
-0inputs+3552outputs (0major+79497minor)pagefaults 0swaps
+42.16user 0.54system 0:42.98elapsed 99%CPU (0avgtext+0avgdata 108028maxresident)k
+0inputs+1232outputs (0major+141539minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+39.50user 0.52system 0:40.32elapsed 99%CPU (0avgtext+0avgdata 89848maxresident)k
+0inputs+1368outputs (0major+117069minor)pagefaults 0swaps
+52.78user 0.51system 0:53.27elapsed 100%CPU (0avgtext+0avgdata 95668maxresident)k
+0inputs+4208outputs (0major+106213minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+38.75user 0.51system 0:39.24elapsed 100%CPU (0avgtext+0avgdata 89420maxresident)k
+0inputs+1360outputs (0major+114083minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+39.59user 0.52system 0:40.29elapsed 99%CPU (0avgtext+0avgdata 89324maxresident)k
+0inputs+1320outputs (0major+117558minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+42.24user 0.54system 0:43.02elapsed 99%CPU (0avgtext+0avgdata 107988maxresident)k
+0inputs+1176outputs (0major+140163minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+39.49user 0.54system 0:40.33elapsed 99%CPU (0avgtext+0avgdata 91964maxresident)k
+0inputs+1320outputs (0major+117104minor)pagefaults 0swaps
+52.65user 0.55system 0:53.19elapsed 100%CPU (0avgtext+0avgdata 99628maxresident)k
+0inputs+4080outputs (0major+107467minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+39.45user 0.51system 0:39.94elapsed 100%CPU (0avgtext+0avgdata 89432maxresident)k
+0inputs+1392outputs (0major+116096minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+39.23user 0.54system 0:39.74elapsed 100%CPU (0avgtext+0avgdata 89336maxresident)k
+0inputs+1328outputs (0major+112327minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+43.86user 0.57system 0:44.73elapsed 99%CPU (0avgtext+0avgdata 108040maxresident)k
+0inputs+1184outputs (0major+141341minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+40.06user 0.47system 0:40.77elapsed 99%CPU (0avgtext+0avgdata 89996maxresident)k
+0inputs+1336outputs (0major+117641minor)pagefaults 0swaps
+52.50user 0.46system 0:52.93elapsed 100%CPU (0avgtext+0avgdata 96112maxresident)k
+0inputs+4104outputs (0major+102522minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+42.36user 0.50system 0:42.84elapsed 100%CPU (0avgtext+0avgdata 107900maxresident)k
+0inputs+1256outputs (0major+136092minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+42.80user 0.53system 0:43.30elapsed 100%CPU (0avgtext+0avgdata 107880maxresident)k
+0inputs+1208outputs (0major+134989minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+43.74user 0.58system 0:44.30elapsed 100%CPU (0avgtext+0avgdata 107812maxresident)k
+0inputs+1232outputs (0major+133005minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+44.75user 0.57system 0:45.45elapsed 99%CPU (0avgtext+0avgdata 108092maxresident)k
+0inputs+1216outputs (0major+136073minor)pagefaults 0swaps
+81.64user 0.69system 1:22.32elapsed 100%CPU (0avgtext+0avgdata 119832maxresident)k
+0inputs+5928outputs (0major+136784minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+39.38user 0.51system 0:39.91elapsed 99%CPU (0avgtext+0avgdata 89936maxresident)k
+0inputs+1392outputs (0major+121805minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+39.52user 0.52system 0:40.03elapsed 100%CPU (0avgtext+0avgdata 89972maxresident)k
+0inputs+1328outputs (0major+115949minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+39.98user 0.48system 0:40.43elapsed 100%CPU (0avgtext+0avgdata 90132maxresident)k
+0inputs+1344outputs (0major+118003minor)pagefaults 0swaps
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+doBiBlast.py:260: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '<=>'
+/storage/apps/PYTHON/3.8/lib/python3.8/site-packages/pandas/core/indexing.py:692: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  iloc._setitem_with_indexer(indexer, value, self.name)
+doBiBlast.py:262: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  best_hit['BBH'] = '->'
+44.72user 0.60system 0:45.32elapsed 100%CPU (0avgtext+0avgdata 108168maxresident)k
+0inputs+1192outputs (0major+142465minor)pagefaults 0swaps
+53.69user 0.54system 0:54.22elapsed 100%CPU (0avgtext+0avgdata 96316maxresident)k
+0inputs+4176outputs (0major+107579minor)pagefaults 0swaps

@@ -91,23 +91,33 @@ def getGenesInfo(gbkFile, type = 'prot'):
     outDF = outDF.reset_index(drop=True)
     return outDF
 
+# Obtains ID from within a genbank file
+def getGbkID(gbkFile):
+    outID = ''
+    for record in SeqIO.parse(gbkFile, 'genbank'):
+        #print(record.features)
+        outID = cp.copy(record.id)
+    return outID
+
 # Parses BLAST best hits files into orthologue matrixes of percentage of identity (PID) and/or 
 # locus tag equivalence
-def parseBBHFiles(type = 'prot', refGbk = refGbk, geneIDsMat = False):
+def parseBBHFiles(type = 'prot', refGbk = refGbk, getGeneIDsMat = False):
+    refID = getGbkID(refGbk)
     if type == 'prot':
         blastDir = blastpDir
         blastFiles = [x for x in os.listdir(blastDir) if '_parsed.csv' in x]
     elif type == 'nucl':
         blastDir = blastnDir
         blastFiles = [x for x in os.listdir(blastDir) if '_parsed.csv' in x]
+    blastFiles = [x for x in blastFiles if '%s_vs_'%refID in x]
     targetIDs = [x.split('_vs_')[1] for x in blastFiles]
     targetIDs = [re.sub('_parsed.csv', '', x) for x in targetIDs]
     orthoMat = getGenesInfo(refGbk, type = type)
-    if geneIDsMat == True:
+    if getGeneIDsMat == True:
         geneIDs_matrix = cp.copy(orthoMat)
     for id in targetIDs:
         orthoMat[id] = list(np.repeat(np.nan, orthoMat.shape[0]))
-        if(geneIDsMat == True):
+        if getGeneIDsMat == True:
             geneIDs_matrix[id] = list(np.repeat(np.nan, geneIDs_matrix.shape[0]))
     for blast in blastFiles:
         blastPath = blastDir + blast
@@ -125,9 +135,9 @@ def parseBBHFiles(type = 'prot', refGbk = refGbk, geneIDsMat = False):
         for col in orthoMat.columns:
             if col in blast:
                 orthoMat[col]=listPID
-                if(geneIDsMat == True):
+                if(getGeneIDsMat == True):
                     geneIDs_matrix[col]=listIDs
-    if geneIDsMat == True:
+    if getGeneIDsMat == True:
         out = [orthoMat, geneIDs_matrix]
         return out
     else:
@@ -146,48 +156,53 @@ def binPIDs(PIDs, thrshld = 90):
 #
 # Parsing
 ####################################################################################################
+
+# Obtain reference genome ID
+refID = getGbkID(refGbk)
+
+# Obtain matrixes of orthologous genes.
 if whatBlast == 'pt':
     if geneIDsMat == True:
         parsed = parseBBHFiles(type = 'prot', refGbk = refGbk, geneIDsMat = True)
         parsedPIDs = parsed[0]
         parsedIDs = parsed[1]
-        parsedIDs.to_csv(blastpDir + 'genIDs_mat.csv')
-        print('geneIDs_mat.csv saved at %s.'%blastpDir)
+        parsedIDs.to_csv('%s%s_genIDs_mat'%(blastpDir, refID))
+        print('%s_geneIDs_mat.csv saved at %s.'%(refID, blastpDir))
     else:
-        parsedPIDs = parseBBHFiles(type = 'prot', refGbk = refGbk, geneIDsMat = False)
+        parsedPIDs = parseBBHFiles(type = 'prot', refGbk = refGbk, getGeneIDsMat = False)
     binnedPIDs = binPIDs(parsedPIDs, thrshld = pidThrshld)
-    parsedPIDs.to_csv(blastpDir + 'ortho_mat.csv')
-    print('ortho_mat.csv saved at %s.'%blastpDir)
-    binnedPIDs.to_csv(blastpDir + 'ortho_matBin.csv')
-    print('ortho_matBin.csv saved at %s.'%blastnDir)
+    parsedPIDs.to_csv('%s%s_ortho_mat.csv'%(blastpDir, refID))
+    print('%s_ortho_mat.csv saved at %s.'%(refID, blastpDir))
+    binnedPIDs.to_csv('%s%s_ortho_matBin.csv'%(blastpDir, refID))
+    print('%s_ortho_matBin.csv saved at %s.'%(refID, blastnDir))
 elif whatBlast == 'nt':
     if geneIDsMat == True:
-        parsed = parseBBHFiles(type = 'nucl', refGbk = refGbk, geneIDsMat = True)
+        parsed = parseBBHFiles(type = 'nucl', refGbk = refGbk, getGeneIDsMat = True)
         parsedPIDs = parsed[0]
         parsedIDs = parsed[1]
-        parsedIDs.to_csv(blastnDir + 'genIDs_mat.csv')
-        print('geneIDs_mat.csv saved at %s.'%blastnDir)
+        parsedIDs.to_csv('%s%s_genIDs_mat.csv'%(blastnDir, refID))
+        print('%s_geneIDs_mat.csv saved at %s.'%(refID, blastnDir))
     else:
         parsedPIDs = parseBBHFiles(type = 'nucl', refGbk = refGbk)
     binnedPIDs = binPIDs(parsedPIDs, thrshld = pidThrshld)
-    parsedPIDs.to_csv(blastnDir + 'ortho_mat.csv')
-    print('ortho_mat.csv saved at %s.'%blastnDir)
-    binnedPIDs.to_csv(blastnDir + 'ortho_matBin.csv')
-    print('ortho_matBin.csv saved at %s.'%blastnDir)
+    parsedPIDs.to_csv('%s%s_ortho_mat.csv'%(blastnDir, refID))
+    print('%s_ortho_mat.csv saved at %s.'%(refID, blastnDir))
+    binnedPIDs.to_csv('%s%s_ortho_matBin.csv'%(blastnDir, refID))
+    print('%s_ortho_matBin.csv saved at %s.'%(refID, blastnDir))
 elif whatBlast == 'both':
     if geneIDsMat == True:
         # Amino acid sequences...
-        parsedPt = parseBBHFiles(type = 'prot', refGbk = refGbk, geneIDsMat = True)
+        parsedPt = parseBBHFiles(type = 'prot', refGbk = refGbk, getGeneIDsMat = True)
         parsedPIDsPt = parsedPt[0]
         parsedIDsPt = parsedPt[1]
-        parsedIDsPt.to_csv(blastpDir + 'genIDs_mat.csv')
-        print('geneIDs_mat.csv saved at %s.'%blastpDir)
+        parsedIDsPt.to_csv('%s%s_genIDs_mat.csv'%(blastpDir, refID))
+        print('%s_geneIDs_mat.csv saved at %s.'%(refID, blastpDir))
         # Nucleotide sequences...
-        parsedNt = parseBBHFiles(type = 'nucl', refGbk = refGbk, geneIDsMat = True)
+        parsedNt = parseBBHFiles(type = 'nucl', refGbk = refGbk, getGeneIDsMat = True)
         parsedPIDsNt = parsedNt[0]
         parsedIDsNt = parsedNt[1]
-        parsedIDsNt.to_csv(blastnDir + 'genIDs_mat.csv')
-        print('geneIDs_mat.csv saved at %s.'%blastnDir)
+        parsedIDsNt.to_csv('%s%s_genIDs_mat.csv'%(blastnDir, refID))
+        print('%s_geneIDs_mat.csv saved at %s.'%(refID, blastnDir))
     else:
         # Amino acid sequences...
         parsedPIDsPt = parseBBHFiles(type = 'prot', refGbk = refGbk)
@@ -195,13 +210,64 @@ elif whatBlast == 'both':
         parsedPIDsNt = parseBBHFiles(type = 'nucl', refGbk = refGbk)
     # Amino acid sequences...
     binnedPIDsPt = binPIDs(parsedPIDsPt, thrshld = pidThrshld)
-    parsedPIDsPt.to_csv(blastpDir + 'ortho_mat.csv')
-    print('ortho_mat.csv saved at %s.'%blastpDir)
-    binnedPIDsPt.to_csv(blastpDir + 'ortho_matBin.csv')
-    print('ortho_matBin.csv saved at %s.'%blastpDir)
+    parsedPIDsPt.to_csv('%s%s_ortho_mat.csv'%(blastpDir, refID))
+    print('%s_ortho_mat.csv saved at %s.'%(refID, blastpDir))
+    binnedPIDsPt.to_csv('%s%s_ortho_matBin.csv'%(blastpDir, refID))
+    print('%s_ortho_matBin.csv saved at %s.'%(refID, blastpDir))
     # Nucleotide sequences...
     binnedPIDsNt = binPIDs(parsedPIDsNt, thrshld = pidThrshld)
-    parsedPIDsNt.to_csv(blastnDir + 'ortho_mat.csv')
-    print('ortho_mat.csv saved at %s.'%blastnDir)
-    binnedPIDsNt.to_csv(blastnDir + 'ortho_matBin.csv')
-    print('ortho_matBin.csv saved at %s.'%blastnDir)
+    parsedPIDsNt.to_csv('%s%s_ortho_mat.csv'%(blastnDir, refID))
+    print('%s_ortho_mat.csv saved at %s.'%(refID, blastnDir))
+    binnedPIDsNt.to_csv('%s%s_ortho_matBin.csv'%(blastnDir, refID))
+    print('%s_ortho_matBin.csv saved at %s.'%(refID, blastnDir))
+    
+# Create versions of the matrixes accounting only for the genes that are missing in any of the target genomes, both for 
+# Pt blasts and Nt blasts
+# Create versions of the matrixes accounting only for the genes that are missing in any of the target genomes, both for 
+# Pt blasts and Nt blasts
+if whatBlast == 'both':
+    # Protein BLASTs...
+    trueLstPt = [sum(binnedPIDsPt.iloc[:, 3:binnedPIDsPt.shape[1]].loc[i]) != 4 for i in range(0, binnedPIDsPt.shape[0])]
+    # Nucleotide BLASTs...
+    trueLstNt = [sum(binnedPIDsNt.iloc[:, 3:binnedPIDsNt.shape[1]].loc[i]) != 4 for i in range(0, binnedPIDsNt.shape[0])]
+    if geneIDsMat == True:
+        # Pt
+        genIDMatMissPt = parsedIDsPt[trueLstPt].reset_index(drop = True)
+        genIDMatMissPt.to_csv('%s%s_geneIDs_mat_miss.csv'%(blastpDir, refID))
+        print('%s_geneIDs_mat_miss.csv saved at %s.'%(refID, blastpDir))
+        # Nt
+        genIDMatMissNt = parsedIDsNt[trueLstNt].reset_index(drop = True)
+        genIDMatMissNt.to_csv('%s%s_geneIDs_mat_miss.csv'%(blastnDir, refID))
+        print('%s_geneIDs_mat_miss.csv saved at %s.'%(refID, blastnDir))
+    # Pt
+    orthoMatMissPt = binnedPIDsPt[trueLstPt].reset_index(drop = True)
+    orthoMatMissPt.to_csv('%s%s_ortho_matBin_miss.csv'%(blastpDir, refID))
+    print('%s_ortho_matBin_miss.csv saved at %s.'%(refID, blastpDir))
+    # Nt
+    orthoMatMissNt = binnedPIDsNt[[sum(binnedPIDsNt.iloc[:, 3:binnedPIDsNt.shape[1]].loc[i]) != 4 for i in range(0, binnedPIDsNt.shape[0])]].reset_index(drop = True)
+    orthoMatMissNt.to_csv('%s%s_ortho_matBin_miss.csv'%(blastnDir, refID))
+    print('%s_ortho_matBin_miss.csv saved at %s.'%(refID, blastnDir))
+elif whatBlast == 'pt':
+    # Protein BLASTs...
+    trueLstPt = [sum(binnedPIDsPt.iloc[:, 3:binnedPIDsPt.shape[1]].loc[i]) != 4 for i in range(0, binnedPIDsPt.shape[0])]
+    if geneIDsMat == True:
+        # Pt
+        genIDMatMissPt = parsedIDsPt[trueLstPt].reset_index(drop = True)
+        genIDMatMissPt.to_csv('%s%s_geneIDs_mat_miss.csv'%(blastpDir, refID))
+        print('%s_geneIDs_mat_miss.csv saved at %s.'%(refID, blastpDir))
+    # Pt
+    orthoMatMissPt = binnedPIDsPt[trueLstPt].reset_index(drop = True)
+    orthoMatMissPt.to_csv('%s%s_ortho_matBin_miss.csv'%(blastpDir, refID))
+    print('%s_ortho_matBin_miss.csv saved at %s.'%(refID, blastpDir))
+elif whatBlast == 'nt':
+    # Nucleotide BLASTs...
+    trueLstNt = [sum(binnedPIDsNt.iloc[:, 3:binnedPIDsNt.shape[1]].loc[i]) != 4 for i in range(0, binnedPIDsNt.shape[0])]
+    if geneIDsMat == True:
+        # Nt
+        genIDMatMissNt = parsedIDsNt[trueLstNt].reset_index(drop = True)
+        genIDMatMissNt.to_csv('%s%s_geneIDs_mat_miss.csv'%(blastnDir, refID))
+        print('%s_geneIDs_mat_miss.csv saved at %s.'%(refID, blastnDir))
+    # Nt
+    orthoMatMissNt = binnedPIDsNt[[sum(binnedPIDsNt.iloc[:, 3:binnedPIDsNt.shape[1]].loc[i]) != 4 for i in range(0, binnedPIDsNt.shape[0])]].reset_index(drop = True)
+    orthoMatMissNt.to_csv('%s%s_ortho_matBin_miss.csv'%(blastnDir, refID))
+    print('%s_ortho_matBin_miss.csv saved at %s.'%(refID, blastnDir))

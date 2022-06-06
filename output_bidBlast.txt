@@ -1,7 +1,272 @@
-/storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa already parsed
-/storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0107_CHIMPflye.fa already parsed
-/storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna already parsed
-/storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0107_CHIMPflye.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/ already exists, using this location.
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0107_CHIMPflye.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0109_A4bovis.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0107_CHIMPflye.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0109_A4bovis.fna already parsed
+D0107_CHIMPflye already has a blast db
+D0109_A4bovis already has a blast db
+D0107_CHIMPflye already has a blast db
+D0109_A4bovis already has a blast db
+D0107_CHIMPflye already blasted against D0109_A4bovis
+D0109_A4bovis already blasted against D0107_CHIMPflye
+parsing BBHs for D0107_CHIMPflye D0109_A4bovis
+D0107_CHIMPflye already blasted against D0109_A4bovis
+D0109_A4bovis already blasted against D0107_CHIMPflye
+parsing BBHs for D0107_CHIMPflye D0109_A4bovis
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0107_CHIMPflye.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0110_L6.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0107_CHIMPflye.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0110_L6.fna already parsed
+D0107_CHIMPflye already has a blast db
+D0110_L6 already has a blast db
+D0107_CHIMPflye already has a blast db
+D0110_L6 already has a blast db
+D0107_CHIMPflye already blasted against D0110_L6
+D0110_L6 already blasted against D0107_CHIMPflye
+parsing BBHs for D0107_CHIMPflye D0110_L6
+D0107_CHIMPflye already blasted against D0110_L6
+D0110_L6 already blasted against D0107_CHIMPflye
+parsing BBHs for D0107_CHIMPflye D0110_L6
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0107_CHIMPflye.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/AL123456.3.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0107_CHIMPflye.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/AL123456.3.fna already parsed
+D0107_CHIMPflye already has a blast db
+AL123456.3 already has a blast db
+D0107_CHIMPflye already has a blast db
+AL123456.3 already has a blast db
+D0107_CHIMPflye already blasted against AL123456.3
+AL123456.3 already blasted against D0107_CHIMPflye
+parsing BBHs for D0107_CHIMPflye AL123456.3
+D0107_CHIMPflye already blasted against AL123456.3
+AL123456.3 already blasted against D0107_CHIMPflye
+parsing BBHs for D0107_CHIMPflye AL123456.3
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0107_CHIMPflye.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/contig_1.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0107_CHIMPflye.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/contig_1.fna already parsed
+D0107_CHIMPflye already has a blast db
+contig_1 already has a blast db
+D0107_CHIMPflye already has a blast db
+contig_1 already has a blast db
+D0107_CHIMPflye already blasted against contig_1
+contig_1 already blasted against D0107_CHIMPflye
+parsing BBHs for D0107_CHIMPflye contig_1
+D0107_CHIMPflye already blasted against contig_1
+contig_1 already blasted against D0107_CHIMPflye
+parsing BBHs for D0107_CHIMPflye contig_1
+D0107_CHIMPflye_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0107_CHIMPflye_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0107_CHIMPflye_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0107_CHIMPflye_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0107_CHIMPflye_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0107_CHIMPflye_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0107_CHIMPflye_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0107_CHIMPflye_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0107_CHIMPflye_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0107_CHIMPflye_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0109_A4bovis.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0107_CHIMPflye.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0109_A4bovis.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0107_CHIMPflye.fna already parsed
+D0109_A4bovis already has a blast db
+D0107_CHIMPflye already has a blast db
+D0109_A4bovis already has a blast db
+D0107_CHIMPflye already has a blast db
+D0109_A4bovis already blasted against D0107_CHIMPflye
+D0107_CHIMPflye already blasted against D0109_A4bovis
+parsing BBHs for D0109_A4bovis D0107_CHIMPflye
+D0109_A4bovis already blasted against D0107_CHIMPflye
+D0107_CHIMPflye already blasted against D0109_A4bovis
+parsing BBHs for D0109_A4bovis D0107_CHIMPflye
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0109_A4bovis.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0110_L6.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0109_A4bovis.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0110_L6.fna already parsed
+D0109_A4bovis already has a blast db
+D0110_L6 already has a blast db
+D0109_A4bovis already has a blast db
+D0110_L6 already has a blast db
+D0109_A4bovis already blasted against D0110_L6
+D0110_L6 already blasted against D0109_A4bovis
+parsing BBHs for D0109_A4bovis D0110_L6
+D0109_A4bovis already blasted against D0110_L6
+D0110_L6 already blasted against D0109_A4bovis
+parsing BBHs for D0109_A4bovis D0110_L6
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0109_A4bovis.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/AL123456.3.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0109_A4bovis.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/AL123456.3.fna already parsed
+D0109_A4bovis already has a blast db
+AL123456.3 already has a blast db
+D0109_A4bovis already has a blast db
+AL123456.3 already has a blast db
+D0109_A4bovis already blasted against AL123456.3
+AL123456.3 already blasted against D0109_A4bovis
+parsing BBHs for D0109_A4bovis AL123456.3
+D0109_A4bovis already blasted against AL123456.3
+AL123456.3 already blasted against D0109_A4bovis
+parsing BBHs for D0109_A4bovis AL123456.3
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0109_A4bovis.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/contig_1.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0109_A4bovis.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/contig_1.fna already parsed
+D0109_A4bovis already has a blast db
+contig_1 already has a blast db
+D0109_A4bovis already has a blast db
+contig_1 already has a blast db
+D0109_A4bovis already blasted against contig_1
+contig_1 already blasted against D0109_A4bovis
+parsing BBHs for D0109_A4bovis contig_1
+D0109_A4bovis already blasted against contig_1
+contig_1 already blasted against D0109_A4bovis
+parsing BBHs for D0109_A4bovis contig_1
+D0109_A4bovis_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0109_A4bovis_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0109_A4bovis_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0109_A4bovis_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0109_A4bovis_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0109_A4bovis_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0109_A4bovis_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0109_A4bovis_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0109_A4bovis_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0109_A4bovis_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0110_L6.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0107_CHIMPflye.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0110_L6.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0107_CHIMPflye.fna already parsed
+D0110_L6 already has a blast db
+D0107_CHIMPflye already has a blast db
+D0110_L6 already has a blast db
+D0107_CHIMPflye already has a blast db
+D0110_L6 already blasted against D0107_CHIMPflye
+D0107_CHIMPflye already blasted against D0110_L6
+parsing BBHs for D0110_L6 D0107_CHIMPflye
+D0110_L6 already blasted against D0107_CHIMPflye
+D0107_CHIMPflye already blasted against D0110_L6
+parsing BBHs for D0110_L6 D0107_CHIMPflye
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0110_L6.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0109_A4bovis.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0110_L6.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0109_A4bovis.fna already parsed
+D0110_L6 already has a blast db
+D0109_A4bovis already has a blast db
+D0110_L6 already has a blast db
+D0109_A4bovis already has a blast db
+D0110_L6 already blasted against D0109_A4bovis
+D0109_A4bovis already blasted against D0110_L6
+parsing BBHs for D0110_L6 D0109_A4bovis
+D0110_L6 already blasted against D0109_A4bovis
+D0109_A4bovis already blasted against D0110_L6
+parsing BBHs for D0110_L6 D0109_A4bovis
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0110_L6.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/AL123456.3.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0110_L6.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/AL123456.3.fna already parsed
+D0110_L6 already has a blast db
+AL123456.3 already has a blast db
+D0110_L6 already has a blast db
+AL123456.3 already has a blast db
+D0110_L6 already blasted against AL123456.3
+AL123456.3 already blasted against D0110_L6
+parsing BBHs for D0110_L6 AL123456.3
+D0110_L6 already blasted against AL123456.3
+AL123456.3 already blasted against D0110_L6
+parsing BBHs for D0110_L6 AL123456.3
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0110_L6.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/contig_1.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0110_L6.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/contig_1.fna already parsed
+D0110_L6 already has a blast db
+contig_1 already has a blast db
+D0110_L6 already has a blast db
+contig_1 already has a blast db
+D0110_L6 already blasted against contig_1
+contig_1 already blasted against D0110_L6
+parsing BBHs for D0110_L6 contig_1
+D0110_L6 already blasted against contig_1
+contig_1 already blasted against D0110_L6
+parsing BBHs for D0110_L6 contig_1
+D0110_L6_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0110_L6_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0110_L6_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0110_L6_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0110_L6_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0110_L6_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0110_L6_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0110_L6_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+D0110_L6_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+D0110_L6_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/AL123456.3.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0107_CHIMPflye.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/AL123456.3.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0107_CHIMPflye.fna already parsed
+AL123456.3 already has a blast db
+D0107_CHIMPflye already has a blast db
+AL123456.3 already has a blast db
+D0107_CHIMPflye already has a blast db
+AL123456.3 already blasted against D0107_CHIMPflye
+D0107_CHIMPflye already blasted against AL123456.3
+parsing BBHs for AL123456.3 D0107_CHIMPflye
+AL123456.3 already blasted against D0107_CHIMPflye
+D0107_CHIMPflye already blasted against AL123456.3
+parsing BBHs for AL123456.3 D0107_CHIMPflye
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/AL123456.3.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0109_A4bovis.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/AL123456.3.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0109_A4bovis.fna already parsed
+AL123456.3 already has a blast db
+D0109_A4bovis already has a blast db
+AL123456.3 already has a blast db
+D0109_A4bovis already has a blast db
+AL123456.3 already blasted against D0109_A4bovis
+D0109_A4bovis already blasted against AL123456.3
+parsing BBHs for AL123456.3 D0109_A4bovis
+AL123456.3 already blasted against D0109_A4bovis
+D0109_A4bovis already blasted against AL123456.3
+parsing BBHs for AL123456.3 D0109_A4bovis
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/AL123456.3.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0110_L6.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/AL123456.3.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0110_L6.fna already parsed
+AL123456.3 already has a blast db
+D0110_L6 already has a blast db
+AL123456.3 already has a blast db
+D0110_L6 already has a blast db
+AL123456.3 already blasted against D0110_L6
+D0110_L6 already blasted against AL123456.3
+parsing BBHs for AL123456.3 D0110_L6
+AL123456.3 already blasted against D0110_L6
+D0110_L6 already blasted against AL123456.3
+parsing BBHs for AL123456.3 D0110_L6
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/AL123456.3.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/contig_1.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/AL123456.3.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/contig_1.fna already parsed
+AL123456.3 already has a blast db
+contig_1 already has a blast db
+AL123456.3 already has a blast db
+contig_1 already has a blast db
+AL123456.3 already blasted against contig_1
+contig_1 already blasted against AL123456.3
+parsing BBHs for AL123456.3 contig_1
+AL123456.3 already blasted against contig_1
+contig_1 already blasted against AL123456.3
+parsing BBHs for AL123456.3 contig_1
+AL123456.3_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+AL123456.3_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+AL123456.3_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+AL123456.3_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+AL123456.3_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+AL123456.3_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+AL123456.3_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+AL123456.3_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+AL123456.3_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+AL123456.3_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/contig_1.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0107_CHIMPflye.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/contig_1.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0107_CHIMPflye.fna already parsed
 contig_1 already has a blast db
 D0107_CHIMPflye already has a blast db
 contig_1 already has a blast db
@@ -12,87 +277,55 @@ parsing BBHs for contig_1 D0107_CHIMPflye
 contig_1 already blasted against D0107_CHIMPflye
 D0107_CHIMPflye already blasted against contig_1
 parsing BBHs for contig_1 D0107_CHIMPflye
-
-
-Building a new DB, current time: 05/06/2022 15:44:56
-New DB name:   /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0109_A4bovis.fa
-New DB title:  /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0109_A4bovis.fa
-Sequence type: Protein
-Keep MBits: T
-Maximum file size: 1000000000B
-Adding sequences from FASTA; added 4007 sequences in 0.110822 seconds.
-
-
-Building a new DB, current time: 05/06/2022 15:44:56
-New DB name:   /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0109_A4bovis.fna
-New DB title:  /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0109_A4bovis.fna
-Sequence type: Nucleotide
-Keep MBits: T
-Maximum file size: 1000000000B
-Adding sequences from FASTA; added 4007 sequences in 0.137917 seconds.
-/storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa already parsed
-parsing D0109_A4bovis
-/storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna already parsed
-parsing D0109_A4bovis
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/contig_1.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0109_A4bovis.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/contig_1.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0109_A4bovis.fna already parsed
 contig_1 already has a blast db
-making blast db with following command line...
-makeblastdb -in /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0109_A4bovis.fa -dbtype prot
+D0109_A4bovis already has a blast db
 contig_1 already has a blast db
-making blast db with following command line...
-makeblastdb -in /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0109_A4bovis.fna -dbtype nucl
-blasting /storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa vs /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0109_A4bovis.fa
-running blast with following command line...
-blastp -db /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0109_A4bovis.fa -query /storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa -out /storage/PGO/results/mtb/bidBlastNuSeqs/bbh_prot/contig_1_vs_D0109_A4bovis.txt -evalue 0.001 -outfmt 6 -num_threads 1
-blasting /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0109_A4bovis.fa vs /storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa
-running blast with following command line...
-blastp -db /storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa -query /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0109_A4bovis.fa -out /storage/PGO/results/mtb/bidBlastNuSeqs/bbh_prot/D0109_A4bovis_vs_contig_1.txt -evalue 0.001 -outfmt 6 -num_threads 1
+D0109_A4bovis already has a blast db
+contig_1 already blasted against D0109_A4bovis
+D0109_A4bovis already blasted against contig_1
 parsing BBHs for contig_1 D0109_A4bovis
-blasting /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna vs /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0109_A4bovis.fna
-running blast with following command line...
-blastn -db /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0109_A4bovis.fna -query /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna -out /storage/PGO/results/mtb/bidBlastNuSeqs/bbh_nucl/contig_1_vs_D0109_A4bovis.txt -evalue 0.001 -outfmt 6 -num_threads 1
-blasting /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0109_A4bovis.fna vs /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna
-running blast with following command line...
-blastn -db /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna -query /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0109_A4bovis.fna -out /storage/PGO/results/mtb/bidBlastNuSeqs/bbh_nucl/D0109_A4bovis_vs_contig_1.txt -evalue 0.001 -outfmt 6 -num_threads 1
+contig_1 already blasted against D0109_A4bovis
+D0109_A4bovis already blasted against contig_1
 parsing BBHs for contig_1 D0109_A4bovis
-
-
-Building a new DB, current time: 05/06/2022 15:51:46
-New DB name:   /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0110_L6.fa
-New DB title:  /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0110_L6.fa
-Sequence type: Protein
-Keep MBits: T
-Maximum file size: 1000000000B
-Adding sequences from FASTA; added 4019 sequences in 0.0960529 seconds.
-
-
-Building a new DB, current time: 05/06/2022 15:51:47
-New DB name:   /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0110_L6.fna
-New DB title:  /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0110_L6.fna
-Sequence type: Nucleotide
-Keep MBits: T
-Maximum file size: 1000000000B
-Adding sequences from FASTA; added 4019 sequences in 0.143785 seconds.
-/storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa already parsed
-parsing D0110_L6
-/storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna already parsed
-parsing D0110_L6
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/contig_1.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/D0110_L6.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/contig_1.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/D0110_L6.fna already parsed
 contig_1 already has a blast db
-making blast db with following command line...
-makeblastdb -in /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0110_L6.fa -dbtype prot
+D0110_L6 already has a blast db
 contig_1 already has a blast db
-making blast db with following command line...
-makeblastdb -in /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0110_L6.fna -dbtype nucl
-blasting /storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa vs /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0110_L6.fa
-running blast with following command line...
-blastp -db /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0110_L6.fa -query /storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa -out /storage/PGO/results/mtb/bidBlastNuSeqs/bbh_prot/contig_1_vs_D0110_L6.txt -evalue 0.001 -outfmt 6 -num_threads 1
-blasting /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0110_L6.fa vs /storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa
-running blast with following command line...
-blastp -db /storage/PGO/results/mtb/bidBlastNuSeqs/prot/contig_1.fa -query /storage/PGO/results/mtb/bidBlastNuSeqs/prot/D0110_L6.fa -out /storage/PGO/results/mtb/bidBlastNuSeqs/bbh_prot/D0110_L6_vs_contig_1.txt -evalue 0.001 -outfmt 6 -num_threads 1
+D0110_L6 already has a blast db
+contig_1 already blasted against D0110_L6
+D0110_L6 already blasted against contig_1
 parsing BBHs for contig_1 D0110_L6
-blasting /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna vs /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0110_L6.fna
-running blast with following command line...
-blastn -db /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0110_L6.fna -query /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna -out /storage/PGO/results/mtb/bidBlastNuSeqs/bbh_nucl/contig_1_vs_D0110_L6.txt -evalue 0.001 -outfmt 6 -num_threads 1
-blasting /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0110_L6.fna vs /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna
-running blast with following command line...
-blastn -db /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/contig_1.fna -query /storage/PGO/results/mtb/bidBlastNuSeqs/nucl/D0110_L6.fna -out /storage/PGO/results/mtb/bidBlastNuSeqs/bbh_nucl/D0110_L6_vs_contig_1.txt -evalue 0.001 -outfmt 6 -num_threads 1
+contig_1 already blasted against D0110_L6
+D0110_L6 already blasted against contig_1
 parsing BBHs for contig_1 D0110_L6
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/contig_1.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/prot/AL123456.3.fa already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/contig_1.fna already parsed
+/storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/nucl/AL123456.3.fna already parsed
+contig_1 already has a blast db
+AL123456.3 already has a blast db
+contig_1 already has a blast db
+AL123456.3 already has a blast db
+contig_1 already blasted against AL123456.3
+AL123456.3 already blasted against contig_1
+parsing BBHs for contig_1 AL123456.3
+contig_1 already blasted against AL123456.3
+AL123456.3 already blasted against contig_1
+parsing BBHs for contig_1 AL123456.3
+contig_1_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+contig_1_geneIDs_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+contig_1_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+contig_1_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+contig_1_ortho_mat.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+contig_1_ortho_matBin.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+contig_1_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+contig_1_geneIDs_mat_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
+contig_1_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_prot/.
+contig_1_ortho_matBin_miss.csv saved at /storage/PGO/results/mtb/bidBlastNuSeqs_allRefs/bbh_nucl/.
