@@ -98,7 +98,7 @@ orthoMat = pd.read_csv('%s%s_ortho_mat.csv'%(bbhDir, refID), index_col = 0)
 targIDs = [x for x in orthoMat.columns if x not in ['locus_tag', 'name', 'product']]
 
 # Determine what are the conflictive genes in the reference (i.e have more than one match to 
-# the target that satisfies PID and COV requisites) and obtains a matrix of all the hits against 
+# the target that satisfy PID and COV requisites) and obtains a matrix of all the hits against 
 # each target.
 cols = ['gene', 'subject', 'PID', 'alnLength', 'mismatchCount', 'gapOpenCount', 'queryStart', 'queryEnd', 'subjectStart', 'subjectEnd', 'eVal', 'bitScore']
 if whatBlast == 'pt':
@@ -106,10 +106,22 @@ if whatBlast == 'pt':
 elif whatBlast == 'nt':
     refLens = get_gene_lens(refID, type='nucl')
 confGenes = []
-hitsStrainDict = {}
 for ID in targIDs:
     bbh = pd.read_csv('%s%s_vs_%s_parsed.csv'%(bbhDir, refID, ID), index_col = 0)
     bbhConfGenes = bbh[bbh['nOrths_%s_vs_%s'%(refID, ID)] > 1]['gene']
+    # Append conflictive genes to general list outside of the loop 
+    [confGenes.append(g) for g in bbhConfGenes]
+    
+# Build the conflictive genes dataframe
+confGenes = np.unique(confGenes)
+confGenesDF = cp.copy(orthoMat.iloc[:, 0:3])
+confGenesDF = confGenesDF[[x in confGenes for x in confGenesDF['locus_tag']]].reset_index(drop = True)
+
+# Fill the dataframe with the blasts results
+for ID in targIDs:
+    idHits = []
+    hitsDict = {}
+    # Load blast result for the target ID
     blastRes = pd.read_csv('%s%s_vs_%s.txt'%(bbhDir, refID, ID), sep = '\t', names = cols)
     if whatBlast == 'pt':
         tarLens = get_gene_lens(ID, type='prot')
@@ -117,26 +129,15 @@ for ID in targIDs:
         tarLens = get_gene_lens(ID, type='nucl')
     blastRes = pd.merge(blastRes, refLens)
     blastRes['COV'] = blastRes['alnLength']/blastRes['gene_length']
-    hitsDict = {}
-    for g in bbhConfGenes:
-        confGenes.append(g)
+    for g in confGenesDF['locus_tag'].tolist():
         geneHits = blastRes.loc[blastRes['gene'] == g]
         geneHits = geneHits[[x >= pidThrshld and y >= covThrshld for x, y in zip(geneHits.PID.tolist(), geneHits.COV.tolist())]]
-        hits = ', '.join(geneHits['subject'].tolist())
-        hitsDict[g] = hits
-    hitsStrainDict[ID] = hitsDict
-confGenes = np.unique(confGenes)
-confGenesDF = cp.copy(orthoMat.iloc[:, 0:3])
-confGenesDF = confGenesDF[[x in confGenes for x in confGenesDF['locus_tag']]].reset_index(drop = True)
-for ID in targIDs:
-    idHits = []
-    for g in confGenesDF['locus_tag'].tolist():
-        if g in list(hitsStrainDict[ID].keys()):
-            idHits.append(hitsStrainDict[ID][g])
+        if geneHits.shape[0] > 0:
+            hits = ', '.join(geneHits['subject'].tolist())
         else:
-            idHits.append(np.nan)
+            hits = np.nan
+        idHits.append(hits)
     confGenesDF[ID] = idHits
-confGenesDF
 
 confGenesDF.to_csv('%s%s_confGenes.csv'%(bbhDir, refID))
 print('%s_confGenes.csv saved at %s.'%(refID, bbhDir))
